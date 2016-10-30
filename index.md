@@ -3,4 +3,4 @@ Saberfront API Docs
 
 ## Contents
 
-[/Weapons](Weapon Types)
+[Weapon Types](/Weapon)
