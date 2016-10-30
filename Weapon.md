@@ -1,3 +1,3 @@
 # Weapons 
 
-[Blasters API](Blasters.md)
+[Blasters API](Blasters)
