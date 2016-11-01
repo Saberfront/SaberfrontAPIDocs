@@ -37,4 +37,4 @@ local gbl = require(game.ReplicatedStorage.Global)
 capturePoint.Touched:connect(function(part)
 if (gbl:FindCharacterAncestor(part)) then print(gbl:FindCharacterAncestor(part).Name .. " has captured the base for the Rebels!")
 end)
-'''
+```
