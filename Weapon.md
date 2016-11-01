@@ -1,3 +1,0 @@
-# Weapons 
-
-[Blasters API](Blasters)
