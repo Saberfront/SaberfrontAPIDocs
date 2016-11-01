@@ -28,3 +28,13 @@ local gbl = require(game.ReplicatedStorage.Global)
 local s = gbl:GetSettings()
 print(s.StartingHP)
 ```
+
+## Global:FindCharacterAncestor(part)
+Returns the Player for the character that the part lies in (if it does).
+### Example:
+```lua
+local gbl = require(game.ReplicatedStorage.Global)
+capturePoint.Touched:connect(function(part)
+if (gbl:FindCharacterAncestor(part)) then print(gbl:FindCharacterAncestor(part).Name .. " has captured the base for the Rebels!")
+end)
+'''
