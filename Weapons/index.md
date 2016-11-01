@@ -1,2 +1,0 @@
-Saberfront Weapons API
-=====================
