@@ -30,7 +30,7 @@ print(s.StartingHP)
 ```
 
 ## Global:FindCharacterAncestor(part)
-Returns the Player for the character that the part lies in (if it does).
+Returns the parent of the part if it is a character (Has a humanoid).
 ### Example:
 ```lua
 local gbl = require(game.ReplicatedStorage.Global)
