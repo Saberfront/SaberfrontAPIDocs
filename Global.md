@@ -38,3 +38,15 @@ capturePoint.Touched:connect(function(part)
 if (gbl:FindCharacterAncestor(part)) then print(gbl:FindCharacterAncestor(part).Name .. " has captured the base for the Rebels!")
 end)
 ```
+
+## Global:orderArmorsByLvl(list)
+return the ordered version of the list of armors available for Saberfront games such as Alderaanaian Assault
+
+```lua
+local gbl = require(game.ReplicatedStorage.Global)
+local armors = gbl:orderArmorsByLvl(nil)
+for _,v in pairs(armors) do
+  print(v.Name)
+end
+  ```
+
