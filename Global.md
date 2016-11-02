@@ -40,13 +40,14 @@ end)
 ```
 
 ## Global:orderArmorsByLvl(list)
-return the ordered version of the list of armors available for Saberfront games such as Alderaanaian Assault
+returns the ordered version of the list of armors available for Saberfront games such as Alderaanaian Assault
 
+### Example: 
 ```lua
 local gbl = require(game.ReplicatedStorage.Global)
 local armors = gbl:orderArmorsByLvl(nil)
 for _,v in pairs(armors) do
   print(v.Name)
-end
-  ```
+end 
+```
 
