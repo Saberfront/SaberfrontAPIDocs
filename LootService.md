@@ -12,9 +12,9 @@ local LootService = require(game.ReplicatedStorage.LootService)
 local Chance = LootService:GetChance()
 print(Chance * 100,"%")
 ```
-## LootService:GetLootBag(MobConf)
+## LootService:GetLoot(MobConf)
 returns a table of loot objects that a player could have
-### Example:
+### Exampl
 ```lua
 local LootService = require(game.ReplicatedStorage.LootService)
 local LootBag = LootService:GetLootBag("Inquisitor")
